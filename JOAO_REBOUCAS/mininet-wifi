@@ -1,0 +1,15 @@
+ATIVIDADE mininet redes	
+	1.1 - nome do artigo: emulando redes wifi com o mininet-wifi de ramom fontes e christian esteve
+	2.1- entre sta1 e sta2 o tempo de atraso foi de 0.133, não ocorrendo a perda de pacotes.
+	2.2 - testando entre sta1 e sta2, 10.5 mbits/sec foi o resultado.
+	2.3 - taxa de transmissao - 14
+		IP 10.0.0.1/8 - endereço
+		range- alcance
+		frequencia-frequency 
+		Antenna Gain : [5] - ganho de antena
+	        mac ['02:00:00:00:00:00']- endereço da interface/antena
+	3.1- station 3 encontra-se fora de comunicação com ap1.
+	4.2- o mininet-wifi possui um threshold chamado CCA que corta a comunicação qiando o nivel de sinal é inferior a -92dBm
+	5.1 - ja que o sta1 etá se movendo ele fica fora do alcance de sta2 por isso nao, ainda que o sta1 foi para outro ponto de acesso
+	5.2- o procedimento ocorrido no sta1 é o handover, util para redes sem fio que tem a funcionalidade de transmitir de uma unidade movel para outra estação.
+	6.1 - a station que recebe pacotes da station 1 é a 3, ao passo que a station 4 não recebe da 3, e a 6 não recebe da 4.
